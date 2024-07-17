@@ -1,0 +1,44 @@
+.main{
+  background-color: #0C1337;
+  height: 100vh;
+  flex-direction : column;
+}
+
+.contain{
+  flex-wrap : wrap;
+  background-color: #2C456B;
+  width : 450px;
+  height : 300px;
+  border : solid 5px yellow;
+}
+
+.playing-cell{
+  border : solid 2px yellow;
+  width : 146.8px;
+  height : 98px;
+  box-sizing : border-box
+}
+
+.playing-msg{
+  font-size : 5rem;
+  font-style : italic
+}
+.winnerMsg{
+  font-style : italic;
+  font-size : 4rem;
+  color : yellow
+}
+
+.reset-button{
+  background-color : #2C456B;
+  color : yellow;
+  font-size : 1.2rem;
+  font-weight: bold;
+  border : solid 3px yellow
+}
+
+.reset-button:hover{
+  background-color : red;
+  color : white
+  
+}
